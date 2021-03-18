@@ -5,6 +5,11 @@ html,body{
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    max-width: 2000px;
+    min-width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container{
@@ -16,6 +21,7 @@ html,body{
 }
 
 #nav{
+    max-width: 2000px;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -69,6 +75,8 @@ nav ul a{
 }
 
 .wavesHeader{
+    min-width: 430px;
+    max-width: 2000px;
     position: absolute;
     bottom: 0;
     left: 0;
